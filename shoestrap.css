@@ -8,3 +8,14 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+  .row:before {
+    display: table;
+    content: "Hi";
+  }
+  
+  .row:after {
+    display: table;
+    content: "Good Bay";
+    clear: both;
+  } 
