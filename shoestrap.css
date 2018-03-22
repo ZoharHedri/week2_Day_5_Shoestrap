@@ -1,4 +1,38 @@
-.col-1 {
+
+
+.col-1 { 
+    float: left;
+    width: 8.33333333%;
+  }
+
+.col-6{
+    float: right;
+    width: 49.99999998%;
+}
+.col-7{
+    float: right;
+    width: 41.66666665%;  
+}
+.col-8{
+    float: right;
+    width: 33.33333333%;  
+}
+.col-9{
+    float: right;
+    width: 24.99999999%;  
+  }
+
+.col-10{
+    float: right;
+    width: 16.66666666%;
+  }
+
+.col-11{
+    float: right;
+    width: 8.33333333%;
+}
+
+.col-12 { 
     float: left;
     width: 8.33333333%;
   }
@@ -11,11 +45,11 @@
 
   .row:before {
     display: table;
-    content: "Hi";
+    content: ""; /*i can write or put what i whant like "Hi" and it'w show BEFORE the table*/ 
   }
   
   .row:after {
     display: table;
-    content: "Good Bay";
+    content: "";/*i can write or put what i whant like "Bay" and it'w show AFTER the table*/
     clear: both;
   } 
