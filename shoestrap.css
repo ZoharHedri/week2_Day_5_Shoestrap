@@ -53,3 +53,7 @@
     content: "";/*i can write or put what i whant like "Bay" and it'w show AFTER the table*/
     clear: both;
   } 
+
+  .r1{
+    margin-top: 50px;
+  }

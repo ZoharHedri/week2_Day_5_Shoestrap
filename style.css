@@ -3,4 +3,31 @@ div {
     border: 1px solid red;
   }
 
+  nav li {
+    display: inline-block;
+  }
+  
+  nav ul {
+    margin: 0;
+    text-align: left;
+  }
+  
+  nav {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  nav li a { 
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    text-decoration: none;
+    color: #83d61a;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 18px;
+  }
+
   
